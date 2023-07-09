@@ -292,6 +292,8 @@ button svg{
   box-shadow: var(--clr-red-dark);
   transition: var(--transition);
   transform: translate(0%);
+  z-index: 9999; /* Set a high z-index value */
+
 }
 
 .show-sidebar {
